@@ -302,7 +302,7 @@ function TodosCard() {
                 </Button>
               </Card.Actions>
             </Card>
-          )}
+          }
         />
 
         {/* Clear only undone tasks */}
