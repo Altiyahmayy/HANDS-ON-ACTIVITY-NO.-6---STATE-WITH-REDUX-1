@@ -1,5 +1,4 @@
 import { configureStore, createSlice, nanoid } from "@reduxjs/toolkit";
-import * as React from "react";
 import { useMemo, useState } from "react";
 import {
   FlatList,
@@ -302,7 +301,7 @@ function TodosCard() {
                 </Button>
               </Card.Actions>
             </Card>
-          }
+          )}
         />
 
         {/* Clear only undone tasks */}
